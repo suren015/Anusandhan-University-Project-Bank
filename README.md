@@ -1,7 +1,7 @@
-
+  **Anusandhaan is a university project bank management system that allows the students and the admins to contribute to the academic workspace.**
 
   <h1 align="center" id = "top"><b>ANUSANDHAAN</b></h1>
-  **Anusandhaan is a university project bank management system that allows the students and the admins to contribute to the academic workspace.**
+
 
   <p align="center">
     Installation guide for the project
