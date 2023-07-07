@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: serif;
+    margin: 15px 30px;
+    font-size: 19px;
+    padding: 5px 20px 15px 20px;
+    background-image: url(../img/bg-img.jpeg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: #edebeb;
+    padding: 5px 20px 15px 20px;
+    height: 110vh;
+    background: transparent;
+    border: 2px solid #01182e;
+    border-radius: 20px;
+    backdrop-filter: blur(45px);
+    text-align: center;
+}
+
+.table-head{
+    font-size: 30px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    margin-top: -10px;
+}
+.box{
+    background-color: #edebeb;
+    padding: 5px 20px 15px 20px;
+    height: 110vh;
+    background: transparent;
+    border: 2px solid #01182e;
+    border-radius: 20px;
+    backdrop-filter: blur(45px);
+    text-align: center;
+}
+
+.google-table {
+    border-collapse: separate;
+    width: 100%;
+    border-radius:10%;
+    
+}
+
+.google-table th, .google-table td {
+    border: 2px solid #848383dd;
+    padding: 8px;
+    text-align: center;
+}
+
+.google-table th {
+    background-color: #848383dd;
+    color: white;
+    font-weight: bold;
+    font-family: 'Labrada', serif;
+    font-size: 35px;
+}
+
+.google-table tr {
+    background-color: #ddd;
+    font-size: 20px;
+}
+
+.google-table tr:hover {
+    background-color: lightblue;
+    transition: 0.2s;
+}
+
+.top-title{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Labrada', serif;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.top-subtitle{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Labrada', serif;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.logoutButton{
+    height: 50px;
+    width: 15% !important;
+    justify-content: center;
+    align-items: center;
+    background-color: #d6b690 !important;
+    transition: all 0.5s;
+    /* cursor: pointer; */
+    font-size: 28px;
+    margin-right: 80%;
+}
+.logoutButton:hover{
+    background-color: #ff8980 !important;
+}
+
+.logout-bx{
+    margin-top: 120px;
+    align-items: left;
+}
+
+.logoutButton:hover span {
+    padding-right: 80px;
+}
+
+.logoutButton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
